@@ -1,0 +1,238 @@
+/* ***************************************************************************************************************** */
+/* Universal styles                                                                                                  */
+/* ***************************************************************************************************************** */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #363636;
+}
+
+p{
+    line-height: 190%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(12, 95, 95);
+}
+
+/* ***************************************************************************************************************** */
+/* Menu                                                                                                              */
+/* ***************************************************************************************************************** */
+
+#menu{
+    background-image: url('images/background.png');
+    height: 100px;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 100px;
+    color: white;
+
+    padding: 0 40px;
+    border: none;
+    display: block;
+}
+
+#menu a:hover{
+    background-color: #517cf1;
+}
+
+/* ***************************************************************************************************************** */
+/* Header                                                                                                            */
+/* ***************************************************************************************************************** */
+
+#header{
+    padding: 60px 0px 40px 0px;
+    text-align: center;
+    
+    background: -moz-linear-gradient(#0b1341, #111c5c, #0b1341);
+}
+
+#header img{
+    display: block;
+    width: 40%;
+    height: 150px;
+    margin: 5px 31%;
+
+}
+
+#header h1{
+    letter-spacing: 0.1em;
+    font-size: 33px;
+    font-style: italic;
+    color: white;
+}
+
+/* ***************************************************************************************************************** */
+/* Banner                                                                                                            */
+/* ***************************************************************************************************************** */
+
+#banner{
+    height: 300px;
+}
+
+#banner img{
+    width: 100%;
+    height: 300px;
+}
+
+/* ***************************************************************************************************************** */
+/* Page                                                                                                              */
+/* ***************************************************************************************************************** */
+
+#page{
+    min-height: 400px;
+    padding: 20px;
+}
+
+#page h2{
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    color: darkblue;
+    letter-spacing: 0.1em
+}
+
+/* CONTENT */
+
+#content{
+    float: left;
+    width: 70%;
+}
+
+/* SIDEBAR */
+
+#sidebar{
+    float: right;
+    width: 25%;
+}
+
+/* LISTS */
+
+ul.styled{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.styled li{
+    border-top: solid 1px #e5e5e5;
+    padding: 14px 0px;
+}
+
+/* ***************************************************************************************************************** */
+/* Footer                                                                                                            */
+/* ***************************************************************************************************************** */
+
+#footer{
+    width: 100%;
+    height: 340px;
+    background-color: #1e1b1a;
+    padding-top: 25px;
+    padding-left: 22px;
+    clear: both;
+}
+
+#footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+}
+
+#footer p{
+    color: #adadad;
+}
+
+#footer a{
+    color: #adadad;
+}
+
+#box1{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+
+#box2{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+
+#box3{
+    float: right;
+    width: 30%;
+    padding-left: 30px;
+}
+
+#box3 i{
+    color: white;
+}
+
+/* ***************************************************************************************************************** */
+/* Copyright                                                                                                         */
+/* ***************************************************************************************************************** */
+
+#copyright{
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    background-color:    #727272;
+    padding-top: 55px;
+    clear: both;
+}
+
+#copyright p{
+    font-size: 12px;
+    letter-spacing: 00.1em;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* ***************************************************************************************************************** */
+/* Cars4Sale                                                                                                           */
+/* ***************************************************************************************************************** */
+
+#gallery img{
+    width: 240px;
+    height: 180px;
+    margin: 12px;
+    border: 1px solid #0d1c70;
+    border-radius: 5px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in;
+
+}
+
+#gallery img:hover{
+    -moz-transform: scale(3);
+	-webkit-transform: scale(3);
+	-o-transform: scale(3);
+}
